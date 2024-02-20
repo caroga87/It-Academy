@@ -10,6 +10,7 @@ public class AppCotxe {
 		System.out.println(Cotxe.getMarca());
 		System.out.println(Cotxe.getModel());
 		System.out.println(nouCotxe.getPotencia());
+		System.out.println(nouCotxe);
 		
 		// TODO Auto-generated method stub
 

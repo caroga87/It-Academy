@@ -30,6 +30,9 @@ public class Cotxe {
 	public void accelerar () {
 		System.out.println("El vehicle està accelerant");
 	}
-	
+	 public String toString () {
+		 return "El vehicle de marca " +marca +" i model "+model
+				 	+" té una potència de " +potencia;
+	 }
 
 }
