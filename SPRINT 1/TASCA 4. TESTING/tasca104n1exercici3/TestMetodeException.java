@@ -1,20 +1,11 @@
 package tasca104n1exercici3;
 
-import static org.junit.Assert.assertThrows;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class TestMetodeException {
-
-	@Test
-	public void metodeArrayException () {
-		
-		assertThrows (ArrayIndexOutOfBoundsException.class, () -> {
-		MetodeException.metodeArrayException(6);
-		});
-	}
-	
-		
-	
-	}
-
-
+public class TestMetodeException {
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void testThrowArrayIndexOutOfBoundsException() {
+        Exemple arrayExample = new Exemple();
+        arrayExample.accesArray();
+    }
+}
