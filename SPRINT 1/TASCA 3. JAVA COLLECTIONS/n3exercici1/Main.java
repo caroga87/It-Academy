@@ -16,7 +16,7 @@ public class Main {
 				
 		 ArrayList <Persona> llista = new ArrayList <Persona>();
 		 
-		 carregarFitxerCSV("FitxerPersones.csv");
+		 carregarFitxerCSV("C:\\Users\\rocac\\eclipse-workspace\\Sprint1\\Tasca 3 Java Collections\\n3exercici1/FitxerPersones.cvs");
 		 
 		 int opcio;
 		
@@ -76,7 +76,8 @@ public class Main {
         llista.add(novaPersona);
 
         // Actualitzar el fitxer CSV amb la nova persona
-        actualitzarFitxerCSV("FitxerPersones.csv", novaPersona);
+        actualitzarFitxerCSV("C:\\Users\\rocac\\eclipse-workspace\\Sprint1\\Tasca 3 Java Collections\\n3exercici1/FitxerPersones.cvs"
+        						, novaPersona);
     }
     
     private static void actualitzarFitxerCSV(String nomFitxer, Persona novaPersona) {
