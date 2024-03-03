@@ -25,6 +25,7 @@ public class Directory {
 	        if (directory.exists()) {
 	            System.out.println("El contingut ordenat és:");
 	            File[] files = directory.listFiles();
+			Arrays.sort(files);
 	            for (File file : files) {
 	                System.out.println(file);
 	            }
